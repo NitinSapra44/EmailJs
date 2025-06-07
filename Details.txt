@@ -1,0 +1,13 @@
+Hi,In this project we are using emailjs to send automatic mails.In this case we only need a frontend i.e no backend is required
+for using this service.
+Firstly to get started we will use the command "npm install npm install @emailjs/browser" this will install all the required
+dependencies required.
+we will visit the emailjs website to register our email service we will use to make things happen.
+we need three things from that website a."service id" b."Templete id" c."Public key".
+These 3 are the only things we need to generate automatic emails.
+now in case of templates we need to style them using html.
+
+Since we are using "name = user_name " to get user input we can access these values in email using {{user_name}} so we will use that
+accordingly.
+
+Here we are using useRef hook from react to get user values in our app that will be sent to my emailjs api.
